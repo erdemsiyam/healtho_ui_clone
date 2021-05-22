@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       routes: {
         '/': (context) => SplashView(),
         '/onboard': (context) => OnBoardingView(),
-        'login': (context) => LoginView(),
+        '/login': (context) => LoginView(),
       },
     );
   }

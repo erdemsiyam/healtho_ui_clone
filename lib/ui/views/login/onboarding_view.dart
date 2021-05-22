@@ -102,7 +102,7 @@ class _OnBoardingViewState extends State<OnBoardingView> {
               borderRadius: BorderRadius.circular(UIHelper.Space25),
               borderSide: BorderSide(color: Colors.white10)),
           onPressed: () {
-            _onPageChangeEvent(_currentPageIndex);
+            _onPageChangeEvent(_currentPageIndex + 1);
             _pageController.nextPage(
               duration: Duration(milliseconds: UIHelper.ONBOARD_NEXT_DURATION),
               curve: Curves.easeIn,

@@ -21,7 +21,7 @@ class UIHelper {
   static dynamicWidth(double width) => ScreenUtil.instance.setWidth(width);
   static dynamicSp(double fontsize) => ScreenUtil.instance.setSp(fontsize);
 
-  static const int SPLASH_DURATION = 500;
+  static const int SPLASH_DURATION = 2000;
   static const int ONBOARD_NEXT_DURATION = 1000;
 
   static const int ONBOARD_PAGE_COUNT = 3;

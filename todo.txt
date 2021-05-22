@@ -1,0 +1,8 @@
+Part1
+    Onboarding(tanıtım ekranları)
+    Splash (Geçiş ve Kontrol Ekranı)
+Part2
+    Verify View & Verification Code View
+    Phone Pin View
+    Register View
+    Select Goal View
